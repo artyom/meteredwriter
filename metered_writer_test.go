@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/artyom/go-metrics"
+	"github.com/artyom/metrics"
 )
 
 func TestMeteredWriterBasic(t *testing.T) {

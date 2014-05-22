@@ -8,7 +8,8 @@
 // multiple io.Writers and cleaning sample pool after period of inactivity.
 //
 // This package is intended to be used with go-metrics:
-// https://github.com/rcrowley/go-metrics
+// (https://github.com/rcrowley/go-metrics) or metrics
+// (https://github.com/facebookgo/metrics) packages.
 package meteredwriter
 
 import (
@@ -19,9 +20,6 @@ import (
 
 // Histogram interface wraps a subset of methods of metrics.Histogram interface
 // so it can be used without type conversion.
-//
-// For full implementation of Histogram interface see go-metrics package:
-// http://github.com/rcrowley/go-metrics
 type Histogram interface {
 	Clear()
 	Count() int64
