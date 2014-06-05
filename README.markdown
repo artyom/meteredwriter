@@ -1,3 +1,10 @@
+# DEPRECATION WARNING
+
+This package considered as deprecated. Please look at [mio][] package, it is a
+fork with a bit cleaner interface and Reader support.
+
+* * *
+
 # meteredwriter
 
 Package meteredwriter provides tools to combine io.Writer and
@@ -13,3 +20,4 @@ packages.
 [2]: https://github.com/rcrowley/go-metrics
 [3]: https://github.com/facebookgo/metrics
 [doc]: http://godoc.org/github.com/artyom/meteredwriter
+[mio]: https://github.com/artyom/mio
